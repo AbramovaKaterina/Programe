@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
 
-    RecyclerView recyclerView;
-    MyRecyclerViewAdapter adapter;
-    LinearLayoutManager layoutManager;
+//    RecyclerView recyclerView;
+//    MyRecyclerViewAdapter adapter;
+//    LinearLayoutManager layoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
