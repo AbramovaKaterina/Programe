@@ -1,4 +1,8 @@
 <resources>
+    <string name="app_name" translatable="false">Programe</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
     <string name="profile">Profile</string>
     <string name="my_books">My books</string>
     <string name="add_book">Add book</string>
