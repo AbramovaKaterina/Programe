@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.programe.ui.home.HomeFragment"
+        android:label="Read books"
+        tools:layout="@layout/fragment_read_books_home" />
+
+    <fragment
+        android:id="@+id/navigation_add_book"
+        android:name="com.example.programe.ui.addbook.AddBook"
+        android:label="Add book"
+        tools:layout="@layout/fragment_add_book" />
+
+    <fragment
+        android:id="@+id/navigation_reading_now"
+        android:name="com.example.programe.ui.readingnow."
+        android:label="Read now"
+        tools:layout="@layout/fragment_reading_now" />
+
+    <fragment
+    android:id="@+id/profile"
+    android:name="com.example.programe.ui.profile.ProfileFragment"
+    android:label="Profile"
+    tools:layout="@layout/profil" />
+</navigation>
