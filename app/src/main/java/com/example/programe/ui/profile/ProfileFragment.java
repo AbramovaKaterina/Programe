@@ -14,7 +14,7 @@ import com.example.programe.databinding.ProfilBinding;
 
 public class ProfileFragment extends Fragment {
 
-    private ProfilBinding binding;
+    ProfilBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {

@@ -14,7 +14,7 @@ import com.example.programe.databinding.FragmentReadingNowBinding;
 
 public class ReadingNow extends Fragment {
 
-    private FragmentReadingNowBinding binding;
+    FragmentReadingNowBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class ReadingNow extends Fragment {
         binding = FragmentReadingNowBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
+        final TextView textView = binding.navigationReadingNow;
         notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }

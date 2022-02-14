@@ -8,15 +8,15 @@
     tools:context=".ui.readingnow.ReadingNow">
 
     <TextView
-        android:id="@+id/text_notifications"
+        android:id="@+id/navigation_reading_now"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:text="@string/reading_now"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

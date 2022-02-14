@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2635" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/book.xml" value="0.2635" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2635" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.2635" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2635" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2635" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2635" />
@@ -17,7 +20,7 @@
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/item.xml" value="0.35507246376811596" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/profil.xml" value="0.35507246376811596" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/profile.xml" value="1.2894736842105263" />
-        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
       </map>
     </option>
   </component>

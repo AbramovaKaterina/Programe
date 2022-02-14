@@ -9,12 +9,23 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.programe.databinding.FragmentAddBookBinding;
+import com.example.programe.ui.adapter.MyRecyclerViewAdapter;
+import com.example.programe.ui.model.Item;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddBook extends Fragment {
 
-    private FragmentAddBookBinding binding;
+     FragmentAddBookBinding binding;
+//    RecyclerView recyclerView;
+//    MyRecyclerViewAdapter adapter;
+//    private AddBook AddBook;
+//    LinearLayoutManager layoutManager = new LinearLayoutManager(AddBook);
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -27,11 +38,34 @@ public class AddBook extends Fragment {
         final TextView textView = binding.textAddBook;
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
-    }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
+
+//        recyclerView = findViewById(R.id.recycler_list);
+//        recyclerView.setHasFixedSize(true);
+//        recyclerView.setLayoutManager(layoutManager);
+//
+//        generateItem();
+//
+//    }
+//
+//    private void generateItem() {
+//        List<Item> itemList = new ArrayList<>();
+//        for (int i = 0; i < 50; i++) {
+//
+//            itemList.add(new Item(
+//                    "book ",
+//                    "author",
+//                    ""));
+//
+//        }
+//        adapter = new MyRecyclerViewAdapter(this,itemList);
+//        recyclerView.setAdapter(adapter);
+//    }
+
+//        @Override
+//        public void onDestroyView() {
+//            super.onDestroyView();
+//            binding = null;
+//        }
     }
 }

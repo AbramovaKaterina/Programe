@@ -14,7 +14,7 @@ import com.example.programe.databinding.FragmentReadBooksHomeBinding;
 
 public class HomeFragment extends Fragment {
 
-    private FragmentReadBooksHomeBinding binding;
+     FragmentReadBooksHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {

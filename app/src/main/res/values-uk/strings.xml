@@ -3,4 +3,8 @@
     <string name="profile">Профіль</string>
     <string name="my_books">Мої книги</string>
     <string name="add_book">Додати книгу</string>
+    <string name="read_books">Читати книги</string>
+    <string name="reading_now">У процесі читання</string>
+    <string name="name_book">Назва</string>
+    <string name="author">Автор</string>
 </resources>
