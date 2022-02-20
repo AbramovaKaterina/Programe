@@ -6,15 +6,15 @@ import androidx.lifecycle.ViewModel;
 
 public class ReadingNowViewModel extends ViewModel {
 
-    private final MutableLiveData<String> mText;
-
-    public ReadingNowViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
-    }
-
-    public LiveData<String> getText() {
-        return mText;
-    }
+//    private final MutableLiveData<String> mText;
+//
+//    public ReadingNowViewModel() {
+//        mText = new MutableLiveData<>();
+//        mText.setValue("This is notifications fragment");
+//    }
+//
+//    public LiveData<String> getText() {
+//        return mText;
+//    }
 }
 

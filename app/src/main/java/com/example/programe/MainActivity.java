@@ -17,7 +17,7 @@ import com.example.programe.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    ActivityMainBinding binding;
 
 
 

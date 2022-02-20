@@ -3,6 +3,7 @@ package com.example.programe.ui.adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,7 +20,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewHo
     AddBook mContext;
     List<Item> itemList;
 
-
     public MyRecyclerViewAdapter(AddBook mContext, List<Item> itemList) {
         this.mContext = mContext;
         this.itemList = itemList;
@@ -29,7 +29,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewHo
     @Override
     public MyRecyclerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(mContext.getContext())
-                .inflate(R.layout.item,parent,false);
+                .inflate(R.layout.card_book_author,parent,false);
         return new MyRecyclerViewHolder(itemView);
     }
 

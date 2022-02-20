@@ -7,4 +7,6 @@
     <string name="reading_now">У процесі читання</string>
     <string name="name_book">Назва</string>
     <string name="author">Автор</string>
+    <string name="add">Додати</string>
+    <string name="search">Шукати</string>
 </resources>

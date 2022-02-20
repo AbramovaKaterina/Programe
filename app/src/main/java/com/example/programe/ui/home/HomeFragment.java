@@ -23,7 +23,7 @@ public class HomeFragment extends Fragment {
         binding = FragmentReadBooksHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        homeViewModel.getText().observe(getViewLifecycleOwner(), binding.textHome::setText);
+//        homeViewModel.getText().observe(getViewLifecycleOwner(), binding.textHome::setText);
         return root;
     }
 
