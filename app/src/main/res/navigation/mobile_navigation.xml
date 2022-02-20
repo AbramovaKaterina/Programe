@@ -19,13 +19,13 @@
 
     <fragment
         android:id="@+id/navigation_reading_now"
-        android:name="com.example.programe.ui.readingnow."
+        android:name="com.example.programe.ui.readingnow.ReadingNow"
         android:label="Read now"
         tools:layout="@layout/fragment_reading_now" />
 
     <fragment
-    android:id="@+id/profile"
-    android:name="com.example.programe.ui.profile.ProfileFragment"
-    android:label="Profile"
-    tools:layout="@layout/profil" />
+        android:id="@+id/navigation_user"
+        android:name="com.example.programe.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profil" />
 </navigation>
