@@ -24,7 +24,7 @@ public class ReadingNow extends Fragment {
         binding = FragmentReadingNowBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.navigationReadingNow;
+//        final TextView textView = binding.navigationReadingNow;
 //        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }

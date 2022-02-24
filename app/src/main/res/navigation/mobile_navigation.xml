@@ -15,7 +15,19 @@
         android:id="@+id/navigation_add_book"
         android:name="com.example.programe.ui.addbook.AddBook"
         android:label="Add book"
-        tools:layout="@layout/fragment_add_book" />
+        tools:layout="@layout/fragment_add_book">
+        <action
+            android:id="@+id/action_navigation_add_book_to_go_to_adding"
+            app:destination="@id/go_to_adding" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/go_to_adding"
+        android:name="com.example.programe.ui.addbook.GoToAdding"
+        android:label="@string/add"
+        tools:layout="@layout/activity_go_to_adding"/>
+
 
     <fragment
         android:id="@+id/navigation_reading_now"
@@ -28,4 +40,7 @@
         android:name="com.example.programe.ui.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/profil" />
+
+
+
 </navigation>
