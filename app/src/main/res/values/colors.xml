@@ -10,31 +10,17 @@
     <color name="green_light">#FF78EEC5</color>
     <color name="Spring_Green">#FF00FF7F</color>
 
-
     <color name="grey_search">#8B9BAC</color>
 
-    <color name="Green">#FF50C878</color>
-    <color name="Lime_Green">#FF7CFC00</color>
-    <color name="Green1">#FF008000</color>
-    <color name="Green2">#FF4CBB17</color>
-    <color name="Green33">#FF90EE90</color>
-    <color name="Green3">#FFECFFDC</color>
-    <color name="Green4">#FF32CD32</color>
-    <color name="Green5">#FF478778</color>
-    <color name="Green6">#FF0BDA51</color>
-    <color name="Green7">#FF0FFF50</color>
-    <color name="Green8">#FF2E8B57</color>
-    <color name="Green9">#FF009E60</color>
-    <color name="Green10">#FF2AAA8A</color>
-    <color name="Aqua">#00FFFF</color>
-    <color name="Aquamarine">#7FFFD4</color>
-    <color name="Blue_Green">#088F8F</color>
-    <color name="Cadet_Blue">#5F9EA0</color>
-    <color name="Cadmium_Green">#097969</color>
-    <color name="Electric_Blue">#00FFFF</color>
-    <color name="Fern_Green">#7DF9FF</color>
-    <color name="Green11">#FF008080</color>
-    <color name="Mint_Green">#FF40E0D0</color>
-    <color name="Green12">#FF40B5AD</color>
-    <color name="Green13">#FF40826D</color>
+
+    <color name="green_white">#A7FFEB</color>
+    <color name="green_grey">#80CBC4</color>
+    <color name="green_">#64FFDA</color>
+    <color name="green_light_bright">#1DE9B6</color>
+    <color name="green_boring">#26A69A</color>
+    <color name="green_pre_dark">#00897B</color>
+    <color name="green_dark">#004D40</color>
+
+
+
 </resources>

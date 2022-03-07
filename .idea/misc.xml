@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2635" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/add_book.xml" value="0.295" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/back.xml" value="0.2895" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/book.xml" value="0.2635" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.297" />
@@ -16,7 +17,11 @@
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.297" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/logo_cat_background.xml" value="0.293" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/logo_cat_f_background.xml" value="0.293" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/open_book.xml" value="0.295" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/reading_now.xml" value="0.295" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/search.xml" value="0.297" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/settings.xml" value="0.295" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/share.xml" value="0.295" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/drawable/user_sans_logo.xml" value="0.293" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/activity_go_to_adding.xml" value="0.25" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/activity_main.xml" value="0.35507246376811596" />
@@ -27,6 +32,7 @@
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/fragment_notifications.xml" value="0.35507246376811596" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/fragment_read_books_home.xml" value="0.35507246376811596" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/fragment_reading_now.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/go_to_add_fragment.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/item.xml" value="0.35507246376811596" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/profil.xml" value="0.35507246376811596" />
         <entry key="..\:/Users/Public/sdk/Programe/app/src/main/res/layout/profile.xml" value="1.2894736842105263" />

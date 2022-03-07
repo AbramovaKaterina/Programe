@@ -24,9 +24,9 @@
 
     <fragment
         android:id="@+id/go_to_adding"
-        android:name="com.example.programe.ui.addbook.GoToAdding"
+        android:name="com.example.programe.ui.addbook.GoToAdd"
         android:label="@string/add"
-        tools:layout="@layout/activity_go_to_adding"/>
+        tools:layout="@layout/go_to_add_fragment"/>
 
 
     <fragment

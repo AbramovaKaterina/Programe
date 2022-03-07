@@ -15,6 +15,7 @@
     <string name="add">Add</string>
     <string name="float_btn_add_book" translatable="false">float_btn_add_book</string>
     <string name="search">Search</string>
+    <string name="category_title" translatable="false">Category title</string>
 
     <string-array name="types">
         <item>Adventure</item>

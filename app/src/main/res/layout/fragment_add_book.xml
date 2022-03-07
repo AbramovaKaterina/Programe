@@ -10,8 +10,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_list"
         android:layout_width="match_parent"
-        android:visibility="visible"
         android:layout_height="0dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/add_book_btn"
         app:layout_constraintTop_toBottomOf="@+id/My_Books"
         tools:listitem="@layout/card_book_author">
@@ -37,11 +37,13 @@
     <Button
         android:id="@+id/add_book_btn"
         android:layout_width="match_parent"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
         android:text="@string/add_book"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 
@@ -49,8 +51,6 @@
         android:id="@+id/My_Books"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="16dp"
         android:text="@string/my_books"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"

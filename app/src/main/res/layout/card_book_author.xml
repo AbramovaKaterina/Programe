@@ -1,24 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.andr oid.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
+    android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardElevation="4dp">
 
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
     <LinearLayout
-        android:id="@+id/view_foreground"
-        android:layout_width="match_parent"
+        android:id="@+id/view_foreground_first"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
-        android:layout_margin="8dp"
-        android:background="@android:color/white"
+        android:visibility="visible"
+        app2:layout_constraintEnd_toStartOf="@+id/text_dont_care"
+        app2:layout_constraintStart_toStartOf="parent">
+        <ImageView
+            android:id="@+id/card_image_first"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/card_item_name_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/name_book"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/card_item_author_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/author"
+                android:textAllCaps="true"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_dont_care"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" "
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <LinearLayout
+        android:id="@+id/view_foreground_second"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
         android:orientation="horizontal"
-        android:visibility="visible">
+        android:visibility="visible"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintStart_toEndOf="@+id/text_dont_care">
 
         <ImageView
-            android:id="@+id/card_image"
-            android:layout_width="67dp"
+            android:id="@+id/card_image_second"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
             android:contentDescription="@string/image"
             android:scaleType="fitXY"
@@ -31,25 +97,25 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card_item_name"
+                android:id="@+id/card_item_name_second"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:gravity="center_vertical"
                 android:text="@string/name_book"
                 android:textAllCaps="true"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/card_item_author"
+                android:id="@+id/card_item_author_second"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:gravity="center_vertical"
                 android:text="@string/author"
                 android:textAllCaps="true"
-                android:textSize="22sp"
+                android:textSize="14sp"
                 android:textStyle="italic" />
 
 
@@ -57,5 +123,7 @@
 
 
     </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </androidx.cardview.widget.CardView>
